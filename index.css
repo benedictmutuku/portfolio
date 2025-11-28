@@ -1,0 +1,29 @@
+body{
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+
+head{
+	background: transparent;
+}
+
+nav{
+	display: flex;
+	gap: 14px;
+	justify-content: right;
+}
+
+section{
+	display: flex;
+	padding: 24px;
+}
+.figure{
+	border-radius: 50%;
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+}
+
+p{
+	width: 50vw;
+}
